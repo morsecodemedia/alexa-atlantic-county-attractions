@@ -1,0 +1,127 @@
+{
+  "intents": [
+    {
+      "name": "AboutIntent",
+      "samples": [
+        "about",
+        "tell me about this place"
+      ],
+      "slots": []
+    },
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.NoIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.YesIntent",
+      "samples": []
+    },
+    {
+      "name": "AttractionIntent",
+      "samples": [
+        "Recommend an attraction",
+        "Recommend an attraction within {distance} miles",
+        "Give me an activity",
+        "Give me an activity within {distance} miles",
+        "Is there anything fun to do",
+        "Let's do something",
+        "What's cool around here",
+        "What is there to see around here",
+        "Is there anywhere worth visiting"
+      ],
+      "slots": [
+        {
+          "name": "distance",
+          "type": "AMAZON.NUMBER",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "BreakfastIntent",
+      "samples": [
+        "breakfast",
+        "bacon",
+        "Where's the bacon",
+        "Take me to the bacon",
+        "I need bacon",
+        "Where do the locals like to go around here to eat",
+        "Any suggestions on where I can go to get some good breakfast",
+        "Tell me what breakfast places are around me",
+        "Good breakfast food",
+        "Good breakfast",
+        "Nearby breakfast",
+        "Where can I get a scrumptious breakfasty treat",
+        "Breakfast treat"
+      ],
+      "slots": []
+    },
+    {
+      "name": "CoffeeIntent",
+      "samples": [
+        "Coffee",
+        "I need caffeine",
+        "I am getting sleepy",
+        "Where's a good place for coffee",
+        "Where can I get a cup of coffee",
+        "Where can I find coffee",
+        "Nearby coffee",
+        "Coffee Nearby",
+        "Where is coffee nearby",
+        "Where is the nearest coffee shop",
+        "Are there any good coffee shops around here"
+      ],
+      "slots": []
+    },
+    {
+      "name": "DinnerIntent",
+      "samples": [
+        "dinner",
+        "Where can I go for supper",
+        "Where's a good place to go for dinner",
+        "Where are the best dinner spots in this town",
+        "What restaurants are near me",
+        "Where can I find good sushi",
+        "I need meat",
+        "Where's the beef"
+      ],
+      "slots": []
+    },
+    {
+      "name": "GoOutIntent",
+      "samples": [
+        "Go out",
+        "Go outside",
+        "Let's go out",
+        "I'm bored"
+      ],
+      "slots": []
+    },
+    {
+      "name": "LunchIntent",
+      "samples": [
+        "Lunch",
+        "Elevensies",
+        "Second Breakfast",
+        "I want second breakfast",
+        "Where can I get second breakfast",
+        "What are the best places to eat lunch near me",
+        "What are the best lunch spots in town",
+        "I need to grab some lunch"
+      ],
+      "slots": []
+    }
+  ]
+}
